@@ -1,0 +1,5 @@
+[01-Apr-2022 19:12:33 UTC] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/streetbuzz1/public_html/newsapp/api/newsperson/application/modules/cron/models/Cron_model.php on line 240
+[03-Apr-2022 20:53:11 UTC] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/streetbuzz1/public_html/newsapp/api/newsperson/application/modules/cron/models/Cron_model.php on line 240
+[28-Apr-2022 20:49:15 UTC] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/streetbuzz1/public_html/newsapp/api/newsperson/application/modules/cron/models/Cron_model.php on line 240
+[12-Jun-2022 18:53:32 UTC] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/streetbuzz1/public_html/newsapp/api/newsperson/application/modules/cron/models/Cron_model.php on line 240
+[20-Jun-2022 20:51:31 UTC] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/streetbuzz1/public_html/newsapp/api/newsperson/application/modules/cron/models/Cron_model.php on line 240

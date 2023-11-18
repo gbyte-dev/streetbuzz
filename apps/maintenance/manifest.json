@@ -1,0 +1,8 @@
+{
+"plugin_name": "maintenance",
+"descr": "With this plugin you can temporarily suspend the access of your registered users ( for example for maintenance or other reason ) and display an appropriate message to them",
+"version": "1.0",
+"author": "Sharetronix Apps",
+"email": "apps@sharetronix.com"
+}
+ 

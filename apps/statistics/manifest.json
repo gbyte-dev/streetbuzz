@@ -1,0 +1,8 @@
+{
+"plugin_name": "statistics",
+"descr": "Information statistics for stx admin - shows number of posts per day, month etc. and registrations",
+"version": "1.0",
+"author": "Sharetronix Apps",
+"email": "apps@sharetronix.com"
+}
+ 

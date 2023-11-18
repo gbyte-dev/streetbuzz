@@ -1,0 +1,28 @@
+[11-May-2023 11:41:46 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/streetbuzz1/public_html/newsapp/system/controllers/allevents.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/streetbuzz1/public_html/newsapp/system/controllers/allevents.php on line 3
+[14-Nov-2023 11:27:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/streetbuzz1/public_html/newsapp/system/controllers/admin_loadcity.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/streetbuzz1/public_html/newsapp/system/controllers/admin_loadcity.php on line 6
+[14-Nov-2023 11:28:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/streetbuzz1/public_html/newsapp/system/controllers/admin_loadcity.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/streetbuzz1/public_html/newsapp/system/controllers/admin_loadcity.php on line 6
+[14-Nov-2023 11:28:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/streetbuzz1/public_html/newsapp/system/controllers/admin_loadcity.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/streetbuzz1/public_html/newsapp/system/controllers/admin_loadcity.php on line 6
+[14-Nov-2023 11:29:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/streetbuzz1/public_html/newsapp/system/controllers/admin_loadcity.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/streetbuzz1/public_html/newsapp/system/controllers/admin_loadcity.php on line 6
+[14-Nov-2023 11:29:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/streetbuzz1/public_html/newsapp/system/controllers/admin_loadcity.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/streetbuzz1/public_html/newsapp/system/controllers/admin_loadcity.php on line 6
+[14-Nov-2023 12:03:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/streetbuzz1/public_html/newsapp/system/controllers/admin_loadcity.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/streetbuzz1/public_html/newsapp/system/controllers/admin_loadcity.php on line 7

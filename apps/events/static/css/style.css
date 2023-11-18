@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sm_counter_cont {
+	position: relative;
+	width: 155px;
+	border-radius: 5px;
+	float: right;
+	padding: 5px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 30px;
+	margin-top: 20px;
+	box-shadow:inset 0px 1px 8px rgba(0,0,0,0.1);
+}
+.sm_santa {
+	width: 50px;
+	height: 70px;
+	position: absolute;
+	left: -18px;
+	top: -10px;
+	background-image: url(../images/santa.png);
+}
+.sm_counter_cont h1 {
+	font-size: 13px;
+	margin: 0 0 2% 0;
+	text-align: right;
+	color: #ff0000;
+}
+.sm_counter_column {
+	width: 23%;
+	float: left;
+	border-top: 1px solid #f7f7f7;
+	padding: 2% 0px;
+	margin: 0px 1%;
+	border-radius: 5px;
+	background-color: #fff;
+	text-align: center;
+}
+.sm_column_top {
+	font-weight: bold;
+}
+.sm_column_bottom {
+	text-transform: uppercase;
+	font-size: 7px;
+	color: #898989;
+}
+
+.popup_event{ color:#5B5B5B; font-size:13px; padding:10px;}
+.popup_event .row{margin-bottom:10px;}
+.popup_event label{width:120px; float:left;}
+.popup_event span{margin-left:10px;display: inline-block; width: 70%; }
+.popup_event .links{ margin-top:20px; padding-top:15px;}
+.popup_event .links a{
+	margin-bottom: 20px; 
+}
+.sidebar .event_roles {
+    background-image: url("../images/roles.jpg");
+	background-size: 14px 14px;
+
+}
+
+.box:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.eventsList {
+    font-family: arial,helvetica,tahoma,verdana,"lucida grande",sans-serif;
+}
+.eventsList .eList {
+    margin: 0 0 0 0;
+}
+
+
+.eventsList .eList li {
+    float: left;
+    padding: 10px 0 10px 1%;
+    width: 99%;
+	list-style-type:none;
+	border-bottom:1px solid #ddd;
+}
+
+.eventsList .eList .btn-row {
+    float: right;
+    padding-left: 40px;
+	margin-top:-25px;
+}
+
+.btn1 {
+    background: #2665ca;
+    border: 1px solid #d9d9d9;
+    color: #fff;
+    display: block;
+    line-height: 23px;
+    padding: 0 12px;
+}
+.eventsList .eList .btn-row .view {
+    background: transparent;
+    border: 0 none;
+    color: #2665ca;
+    display: block;
+    line-height: 23px;
+    padding: 0 12px;
+	text-decoration:underline;
+	text-align:right;
+	margin-top:5px;
+}
+.eventsList .eList .btn-row a{margin:25px 5px 10px; float:right;}
+
+.eventsList .eList .btn-row .share {
+    margin-top: 6px;
+}
+.addthis_button {
+    cursor: pointer;
+}
+.eventsList .eList .btn-row .share span {
+    background: #2665ca;
+    color: #fff;
+    display: block;
+    line-height: 23px;
+    padding-left: 18px;
+}
+div.atclear {
+    clear: both;
+}
+.eventsList .eList .TE-txt.met-list span.c {
+    font-style: italic;
+}
+.eventsList .eList .TE-txt.met-list span {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 18px;
+}
+
+.eventsList .eList .TE-txt p, .eventsList .eList .TE-txt p a {
+    line-height: 14px;
+}
+.eventsList .eList .TE-txt p {
+    line-height: 14px;
+    padding: 3px 0;
+}
+.eventsList .eList .TE-txt span {
+    color: #333333;
+    font-size: 11px;
+    font-style: italic;
+    line-height: 14px;
+}
+
+.eventsList .eList .TE-txt.met-list span.time {
+    color: #a5a5a5;
+    font-size: 11px;
+    font-style: normal;
+    line-height: 14px;
+}
+.eventsList .eList .TE-txt.met-list span.time .c{ 
+	font-size: 11px;
+    font-style: normal;
+	color: #a5a5a5;
+}
+.custom-header {
+    background: none repeat scroll 0 0 #000000;
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+}
+.feed-navigation .event {
+    background-image: url("../images/event.png");
+    background-repeat: no-repeat;
+	background-position: 5px 3px !important;
+}
+.left_link{
+font-weight:bold;
+color:#27566F !important;
+}
+.left_link:hover{
+	background-color: transparent !important;;
+}
+.event_tab.ui-tabs .ui-tabs-panel{overflow:hidden; padding:0 0 5px 2px !important;}
+#upcomming a.viewall{float:right; padding:5px 3px 0 0;   font-weight: bold; color: #27566F !important;}
+#upcomming a.viewall:hover{ text-decoration:none;}
+.event_tab .ui-state-default, .event_tab .ui-widget-content .ui-state-default, .event_tab .ui-widget-header .ui-state-default, .event_tab  .ui-state-hover{background:0 none !important; border:0 none !important;}
+.event_tab .ui-state-active, .event_tab .ui-widget-content .ui-state-active, .event_tab .ui-widget-header .ui-state-active {background:#fff !important;}
+#ui-datepicker-div .ui-widget-header{font-size: 13px;}
+#ui-datepicker-div .ui-datepicker-current{font-size: 12px;}
+#ui-datepicker-div .ui-datepicker-close{font-size: 12px;}
+.role_section, .resource_section{  margin:0 0 40px;}
+.event_role_view, .event_resource_view{display:none; padding:15px 0;}
+
+.event_tab.ui-widget{font-family: arial,helvetica,tahoma,verdana,"lucida grande",sans-serif !important; }
+.event_tab.ui-widget .ui-tabs-nav li a{font-weight:bold;}
+/*.calander-view{margin-bottom:15px; float:left;}*/
+.calander-add{float:right;}
+
+.attachment_content{margin-left:100px; margin-top:40px;}
+/* Time Picker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 40%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 40% 10px 10px; }
+
+.fc-view-agendaWeek .fc-event-container table td{width:200px !important}
+
+.row_tip label{width:120px; float:left;}
+.row_tip{margin-bottom:5px;}
+#center-container .eList li  div.TE-txt{float:left; width:400px; padding-left: 8px;}
+table td {padding: 5px;}
+.major-event {
+	background: url("../images/major.png") !important;
+	background-repeat: no-repeat !important;
+	background-position-x: 0px;
+	background-position-y: 0px;
+}
+.major-event .fc-event-inner{
+	margin-left:11px;
+	font-weight:bold;
+	width:80px;
+}
+
+.major-event .fc-event-inner .fc-event-title{
+	width:55px;
+	display: block;
+	min-height:10px;
+}
+.fc-view-agendaWeek .major-event .fc-event-inner{
+	width:28px;
+}
+.fc-view-agendaWeek .major-event .fc-event-inner .fc-event-title{
+	width:55px;
+	display: block;
+	height:17px;
+	overflow:hidden;
+}
+.ui-tabs-panel .eList li div.TE-txt{width:auto;min-height:auto;}
+#start_date, #start_time, #end_date, #end_time{/*width:100px*/}
+
+#calendar table.fc-header th, #calendar table.fc-header td {border:0px;}
+#calendar table.fc-header th, #calendar table.fc-header td {border:0px;}
+table.fc-header{border:0px; display: -moz-deck;}
+.ui-datepicker-title{
+	font-size: font-size: 13px !important;
+}
+.icon-calander{margin-right: 5px;float: left;}
+.address_view{padding-top:0px;}
+
+.comments-editor1 {
+	background: none repeat scroll 0 0 #f6f6f6;
+    padding: 7px;
+    position: relative;
+}
+.js-publish{
+	margin-left:4px;
+}
+.event_activity{padding-top:8px;}
+.event_label{padding:0;}
+.custom-form-container input[type="text"]{width:280px;}
+.custom-form-container #start_date, .custom-form-container #start_time, .custom-form-container #end_date, .custom-form-container #end_time{width:131px;}
+.custom-form-container #pub_select_day{margin-right:5px; width: 80px;}
+.custom-form-container #publish_time{margin-right:5px; width: 60px;}
+.custom-form-container select{width:294px;}
+
+.navigation li a.selected{
+    z-index: inherit !important;
+}
+
+.fc-event-canceled{
+	opacity:0.3;
+}
+#ui-datepicker-div {
+  display: none ;
+}
+.event_calendar_title {
+border: 1px solid #aaaaaa;
+  background: #cccccc url(images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x;
+  color: #222222;
+  margin: 0;
+  padding: 5px 5px 5px 25px !important;
+  border-radius: 4px;
+  }
+  .sidebar .event_calendar_title:hover{
+  background-color: #cccccc  !important;
+  }
+  .in_group{
+padding-left:10px; 
+ color: #a5a5a5;
+ float:left;
+}  
+.eList.box .tBox{
+  float:left;
+}
+.eList.box .eDetails{
+clear:both;
+}
+.tBoxImg{
+margin-right:10px;
+}
+.today_event{
+background-color: rgb(243, 243, 243);
+border: solid 1px rgb(217, 217, 217);
+margin-left: 10px; margin-bottom: 10px;
+}
+div.role_section .btn_submit.btn.green, div.resource_section .btn_submit.btn.green{padding: 0 20px; margin-top: 10px;}

@@ -1,0 +1,60 @@
+<?php	
+    require_once('../../helpers/func_main.php');
+    require_once('../../conf_system.php');
+    require_once('classes/class_api.m2.php');
+   	// Convert data to json    
+   	$data = json_decode(file_get_contents('php://input'),true);
+   	
+   	//Parse data from JSON
+   	$userid         = $data["post"]["userid"];        
+   	$postid         = $data["post"]["postid"];
+    $token          = $data["post"]["access_token"]; 
+   	$messagetext        = $data["post"]["message"]; 
+   	
+
+    /*  if ($parentid == null)
+      {
+        $parentid = 0;
+     }
+     */
+
+
+    //Set default values
+    $message='Success';
+    $statuscode=0;
+    $oauth_access_token = '';
+
+    // Create class object
+    $api = new API();
+    //Get the user id if exists
+    
+    
+    if (!$api->validateToken($userid, $token))
+    {
+        $message='Invalid token';
+		$statuscode=100;
+        http_response_code(401);
+        
+    }
+    else
+    {
+  		$commentid = $api->setPostComments($userid,$postid,$messagetext);
+		$message='Success';
+		$statuscode=0;
+    }
+
+    $response=array();
+	$response["status"]=array();
+	$status =array(
+            "message" => $message,
+            "statuscode" => $statuscode
+        );
+
+    $response["status"] = $status;
+    $response["count"] = $commentid;
+    http_response_code(200);
+	
+	
+
+    echo json_encode($response);
+?>

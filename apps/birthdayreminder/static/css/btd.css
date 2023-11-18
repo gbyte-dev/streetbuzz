@@ -1,0 +1,26 @@
+.btd {
+	margin-top:10px;
+    background: none repeat scroll 0 0 #f7f7f7;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #dcdcdc;
+    padding: 5px;
+}
+.btd_text {
+	float: left; 
+	width: 130px; 
+	margin-top: 5px; 
+	text-align: center;
+}
+
+.btd_users{
+	text-align: center;
+	color: #6e99e0;
+}
+.btd_users a{ 
+	color: #6e99e0;
+}
+
+.btd_users a:hover{ 
+	color: #208700;
+	background-color: #e5e5e5;
+}

@@ -1,0 +1,12 @@
+{
+    "name": "yamraaj/yamraaj",
+    "description": "test aws",
+    "type": "project",
+    "license": "yamraaj",
+    "autoload": {
+        "psr-4": {
+            "Yamraaj\\Yamraaj\\": "src/"
+        }
+    },
+    "require": {"aws/aws-sdk-php": "^3.33"}
+}

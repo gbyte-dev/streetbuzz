@@ -1,0 +1,8 @@
+{
+"plugin_name": "serverload",
+"descr": "The app shows message to user who try to log in if the server is overload - works only for Linux installations",
+"version": "1.0",
+"author": "Sharetronix Apps",
+"email": "apps@sharetronix.com"
+}
+ 

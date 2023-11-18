@@ -1,0 +1,35 @@
+<?php
+ 
+
+if(strlen($_REQUEST["query"]) > 2) {
+        $output = '';  
+        
+        $query = "SELECT * FROM users WHERE username LIKE '%".$_REQUEST["query"]."%'";  
+        $sql=  $db2->query($query);
+        
+           
+ 
+       $output = '<ul class="list-unstyled">';  
+        if($sql->num_rows > 0){  
+            while($row = $sql->fetch_assoc()){  
+                $output .= '<li><a onclick=readuser_byid('.$row["id"].')>'.$row["username"].'</a></li>';  
+            }  
+        }else{  
+            $output .= '<li>User Not Found</li>';  
+        }  
+    
+    $output .= '</ul>';  
+    echo $output;  
+
+
+}
+ 
+
+
+
+
+
+
+
+//}
+?>

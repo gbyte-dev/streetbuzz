@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*body {*/
+/*  font-family: Arial, Helvetica, sans-serif;*/
+/*  background-color: #e9eaed;*/
+/*  color: #333;*/
+/*}*/
+/*#container {*/
+/*  margin: 0 auto;*/
+/*  width: 900px;*/
+/*}*/
+/*#timelineContainer {*/
+/*  width: 100%;*/
+/*  position: relative;*/
+/*}*/
+/*#timelineBackground {*/
+/*  height: 315px;*/
+/*  position: relative;*/
+/*  border-left: 1px solid #333;*/
+/*  border-right: 1px solid #333;*/
+/*  margin-top: -20px;*/
+/*  overflow: hidden;*/
+/*  background-color: #fff;*/
+/*}*/
+/*#timelineShade {*/
+/*  min-height: 95px;*/
+/*  position: absolute;*/
+/*  margin-top: -95px;*/
+/*  width: 100%;*/
+/*}*/
+/*.timelineUploadBG {*/
+/*  position: absolute;*/
+/*  margin-top: 50px;*/
+/*  margin-left: 813px;*/
+/*  height: 32px;*/
+/*  width: 32px;*/
+/*}*/
+/*.uploadFile {*/
+/*  background: url(images_bg/whitecam.png) no-repeat;*/
+/*  height: 32px;*/
+/*  width: 32px;*/
+/*  overflow: hidden;*/
+/*  cursor: pointer;*/
+/*}*/
+/*.uploadFile input {*/
+/*  filter: alpha(opacity=0);*/
+/*  opacity: 0;*/
+/*  margin-left: -110px;*/
+/*}*/
+/*.custom-file-input {*/
+/*  height: 25px;*/
+/*  cursor: pointer;*/
+/*}*/
+.bgImage,
+#timelineBGload {
+  width: 100%;
+}
+.headerimage {
+  cursor: s-resize;
+  position: absolute;
+}
+.wallbutton:hover {
+  text-decoration: none;
+}
+.blackButton {
+  background-color: #666;
+  border-color: #333;
+}
+.bgSave {
+  position: absolute;
+  margin-top: 267px;
+  margin-left: 760px;
+  z-index: 4000;
+}
+.wallbutton {
+  font-weight: 700;
+  padding: 7px 9px;
+  background-color: #5fcf80;
+  color: #fff ;
+  font-size: 12px;
+  font-family: helvetica neue, Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  border-width: 1px 1px 3px;
+  border-style: solid;
+  border-color: #3ac162;
+  white-space: nowrap;
+  display: -moz-inline-stack;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}

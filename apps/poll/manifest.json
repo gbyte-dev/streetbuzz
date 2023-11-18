@@ -1,0 +1,8 @@
+{
+"plugin_name": "poll",
+"descr": "This plugin allow users to vote on presented by the community administrator questions, selecting one of the listed different opinions or enter own.",
+"version": "1.0",
+"author": "Sharetronix Apps",
+"email": "apps@sharetronix.com"
+}
+ 

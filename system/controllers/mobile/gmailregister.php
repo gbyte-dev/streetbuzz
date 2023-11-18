@@ -1,0 +1,241 @@
+<?php
+  $res  =explode(',',$_POST['simply']);
+
+  foreach($res as $keys=>$vals){
+  $db2->query('SELECT u.id,u.username,u.fullname,u.avatar,u.about_me FROM users as u WHERE u.email="'.$db2->e($vals).'" LIMIT 1');
+  $obj = $db2->fetch_object();
+  if(!empty($obj)){
+     $streetuser[] = $obj;
+  
+  }else{
+    $unstreetuser[] = $vals;
+  
+  }
+
+ }
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>StreetBuzz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="icon" href="images/favicon.jpg" type="image/jpeg" sizes="24x24"> 
+<link rel="stylesheet" href="<?php echo $C->SITE_URL;?>static/css/bootstrap.min.css">
+<link rel="stylesheet" href="<?php echo $C->SITE_URL;?>static/css/sb_ui.css">
+<!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<style>
+body
+
+{
+  background: url(<?php echo $C->SITE_URL;?>static/images/bg6.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+</style>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+ <div class="container-fluid">
+
+      <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                           <a href="<?php echo $C->SITE_URL; ?>"><img src="<?php echo $C->SITE_URL; ?>static/images/logo.jpg" class="img-responsive"></a>
+
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </nav>
+     
+
+<!-- Main content -->
+<div class="container contentbox-inner">
+
+<div class="col-md-1 col-lg-1 hidden-xs">
+<!-- for spacing adjustment -->
+</div>        
+
+      
+<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 main-content-box">
+<!--/ Signup -->
+<div class="row box-white-inner">
+
+<div class="reg-title">Suggestions just for you</div>
+
+<div class="col-md-12 col-lg-12 col-xs-12 reg-desc-big"><p>Based on your choices, here are some suggestions for you. We recommened 
+  <a href="#" class="link_blue_text_big">following</a> all experts!</p>
+</div>
+
+<!-- start Scroll -->
+<div class="col-md-12 col-lg-12 col-xs-12 scroll-bar">
+<div class="scroll-title">Suggestions for you</div>
+<div class="col-md-8">
+<div class="panel panel-primary">
+<div class="panel-body scroll-limit" id="Panel1">
+
+
+<div class="checkbox">
+<?php
+if(!empty($streetuser)){
+foreach( $streetuser as $keys=>$result ){
+$users[] = $result->id;
+
+?>
+	
+
+<!-- row 1 starts -->     
+<div class="col-md-12 col-lg-12 sugg-outer" id="hide-<?php echo $result->id;?>">
+<!-- start column 1 -->
+<div class="col-md-1 col-lg-1 sugg">
+<?php  if($result->avatar !="" ){
+	$image = $result->avatar;
+	
+}else{
+	$image ="noimage.png";
+	
+}
+	?>
+<img src="<?php echo $C->SITE_URL; ?>storage/avatars/thumbs3/<?php echo $image;?>" class="img-responsive">
+</div>
+<!-- end column 2 -->
+
+<!-- start column 1 -->
+<div class="col-md-8 col-lg-8">
+<?php echo $result->fullname; ?><span class="link_blue_text">@<?php echo $result->username; ?></span> <br /> <span class="text-small-dark-blue">
+<?php echo $result->about_me;?></span>
+</div>
+<!-- end column 2 -->
+
+<!-- start column 1 -->
+<div class="col-md-2 col-lg-2 sugg-hit-miss">
+Hit - 6 <br />
+Miss - 2
+</div>
+<!-- end column 2 -->
+
+<!-- start column 1 -->
+<div class="col-md-1 col-lg-1 sugg-close" rel="<?php echo $result->id ?>">
+<img src="<?php echo $C->SITE_URL;?>static/images/close.png" rel="<?php echo $result->id ?>">
+</div>
+<!-- end column 2 -->
+
+</div>
+<!-- row 1 ends --> 
+<?php } 
+}
+
+?>
+<form action="<?php echo $C->SITE_URL?>registerfollow" method="post">
+
+<?php
+if(!empty($unstreetuser )){
+foreach($unstreetuser as $keys=>$emails){ ?>
+<div class="col-md-8 col-lg-8">
+  <span><input type="checkbox" name="unuser[]"  value="<?php echo $emails; ?>"></span>
+  <span><?php echo $emails; ?></span>
+</div>
+
+<?php } }
+?>
+
+
+<?php 
+if(!empty($users)){
+$res = implode(",",$users);
+}
+
+ ?>
+  <input type="hidden" name="userid" value="<?php echo $_POST['userid'];?>" >
+
+ <input type="hidden" name="users" value="<?php echo $res;?>" id="users">
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+</div>
+<!-- end Scroll -->
+
+
+<div class="col-md-12 col-lg-12 reg-desc-big">
+
+<input type="submit" class="btn btn-default btn-blue" value="Follow 10 & Continue">
+</form>
+</div>  
+
+</div>      
+</div>
+<!--/ Start Main Content -->  
+
+
+
+<div class="col-md-1 col-lg-1 hidden-xs">
+<!-- for spacing adjustment -->
+</div>  
+
+
+</div>
+</div> <!-- /container main -->
+
+<!-- start - footer -->
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer-box" align="center">
+<ul>
+<li><a href="#">About</a></li>
+<li><a href="#">Help</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Status</a></li>
+<li><a href="#">Job</a></li>
+<li><a href="#">Privacy</a></li>
+<li><a href="#">Cookies</a></li>
+<li><a href="#">Adsinfo</a></li>
+<li><a href="#">Brand</a></li>
+<li><a href="#">Advertise</a></li>
+<li><a href="#">Business</a></li>
+<li><a href="#">Media</a></li>
+<li><a href="#">Developers</a></li>
+<li><a href="#">Directory</a></li>
+</ul>
+</div> 
+<!-- end - footer -->
+
+
+</body>
+<script src="<?php echo $C->SITE_URL ?>static/js/jquery.js?v=3.6.0"></script>
+<script type="text/javascript">
+$(".sugg-close").click(function(){
+	var id = $(this).attr('rel');
+	var users = $("#users").val();
+	 $("#hide-"+id).fadeOut();
+	 $.ajax({
+		 
+		  type:"POST",
+		  data:{userid:id,users:users},
+		   url:"<?php echo $C->SITE_URL;?>signup",
+
+		  success:function(response){
+			  $("#users").val(response);
+			 
+			  
+			  
+		  }
+		  
+	  });
+	
+	
+});
+
+</script>
+</html>

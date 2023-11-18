@@ -1,0 +1,4 @@
+.sidebar .post-reshare {}
+.reshare-list {}
+.reshare-list.empty {display:none;}
+.reshare-list a {margin:0;}

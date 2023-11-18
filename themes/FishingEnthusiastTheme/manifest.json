@@ -1,0 +1,10 @@
+{
+	"name": 				"FishingEnthusiastTheme",
+	"system_name": 			"FishingEnthusiastTheme",
+	"icon": 				"theme.gif",
+	"author": 				"Sharetronix Apps",
+	"email": 				"apps@sharetronix.com",
+	"theme_overwrite_css":  "TRUE",
+	"descr": 				"FishingEnthusiastTheme",
+	"version": 				"1.0"
+}

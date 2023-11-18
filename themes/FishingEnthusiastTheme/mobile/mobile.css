@@ -1,0 +1,54 @@
+body{
+width:100%;
+min-width:0px;
+  padding:0px;
+}
+.system-logo img{
+width: 200px;
+margin-top: 14px;
+}
+.navbar-header, #header {
+min-width:auto;
+}
+.divwrap{
+margin:0px;}
+.navbar {
+font-size: 14px;
+min-height: 0px;
+min-width:auto;
+margin-bottom: 0px;
+border: none;
+border-radius: 6px;
+}
+.navbar-fixed-top, .navbar-fixed-bottom{
+position:relative;
+}
+.navbar{
+min-height: 53px;
+margin-bottom: 0px;
+}
+/* Keep Main Nav bar fixed on mobile screens */
+.navbar-header, #header{
+min-width:0px;
+/*position: fixed!important;*/
+top: 0!important;
+}
+textarea,
+input [type="password"],
+input [type="text"]{
+width:100% !important;
+}
+.editor-placeholder {
+display:none !important;
+}
+/*.dialog-container{
+position:absolute !important;
+z-index:2147483647;
+}*/
+.top80{
+margin-top:0px!important; 
+}
+.overlay{
+position:fixed!important;
+}
+

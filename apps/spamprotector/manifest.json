@@ -1,0 +1,8 @@
+{
+"plugin_name": "spamprotector",
+"descr": "With this app your users could mark posts as SPAM messages. After visiting your administrative panel there will be `SPAM Protector` section in it where you can find users which are spamming the community and suspend them.",
+"version": "1.0",
+"author": "Sharetronix Apps",
+"email": "apps@sharetronix.com"
+}
+ 

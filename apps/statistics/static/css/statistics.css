@@ -1,0 +1,85 @@
+.ttl {
+	height: 27px;
+	background-color: #eee;
+	background-image:url('../img/ttl.gif');
+	background-position:top right;
+	overflow:visible;
+}
+.ttl2 {
+	height: 27px;
+	background-image:url('../img/ttl2.gif');
+	background-position:top left;
+	background-repeat:no-repeat;
+	overflow:visible;
+}
+.ttl2 h3 {
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	padding-top:6px;
+	padding-left:7px;
+	float:left;
+}
+.ttl2 .ttlink {
+	float:right;
+	display:block;
+	padding:6px;
+}
+#postfilter {
+	float:right;
+	font-size:11px;
+	color:#666;
+	padding:6px;
+	padding-bottom:0px;
+	position:relative;
+	overflow:visible;
+	max-width:250px;
+}
+#postfilter span {
+	float:right;
+}
+#postfilter #postfilterselected {
+	display:block;
+	float:right;
+	text-decoration:underline;
+	color: #d9dfe5;
+	background-image:url('../img/postfilterdropper.gif');
+	background-repeat:no-repeat;
+	background-position:top right;
+	padding-right:13px;
+	margin-left:5px;
+}
+#postfilter #postfilterselected span {
+	color: #0055a4;
+	float:left;
+	cursor:pointer;
+}
+#postfilter #postfilterselected:hover {
+	color: #96b4d1;
+}
+
+
+#postfilter #postfilteroptions, #postfilter .postfilteroptions {
+	position:absolute;
+	top:24px;
+	right:0px;
+	width:100px;
+	border:1px solid #0055a4;
+	display:none;
+	z-index:1000;
+}
+#postfilter #postfilteroptions a, #postfilter .postfilteroptions a {
+	display:block;
+	padding:4px;
+	padding-left:6px;
+	border-bottom:1px solid #ebf5ff;
+	background-color:white;
+	color:#0055a4;
+	background-image:none;
+}
+#postfilter #postfilteroptions a:hover, #postfilter .postfilteroptions a:hover {
+	background-color: #3688da;
+	color:white;
+	border-bottom:1px solid #0055a4;
+}
+/***************************/
