@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v3
     
     - name: 📂 Sync files
-      uses: Streetbuzz deploy
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: 182.18.139.96
         username: ajay@streetbuzz.co
