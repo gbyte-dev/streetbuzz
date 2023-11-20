@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: Streetbuzz deploy
       with:
-        server: ftp.streetbuzz.co
+        server: 182.18.139.96
         username: ajay@streetbuzz.co
         password: ${{ secrets.ftp_password }}
