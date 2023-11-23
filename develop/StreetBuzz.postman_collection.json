@@ -1,0 +1,724 @@
+{
+	"info": {
+		"_postman_id": "4997c6d7-81d2-4488-b26a-1cd354e90113",
+		"name": "StreetBuzz",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Coverage Category",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					},
+					{
+						"key": "Authkey",
+						"value": "f16b10059bb3bcb0129c4e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"search_key\":\"En\"}"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/search/coverage_category",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"search",
+						"coverage_category"
+					]
+				},
+				"description": "Coverage Category"
+			},
+			"response": []
+		},
+		{
+			"name": "User Search",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					},
+					{
+						"key": "Authkey",
+						"value": "f16b10059bb3bcb0129c4e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"search_key\":\"nara\"}"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/search",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"search"
+					]
+				},
+				"description": "User Search"
+			},
+			"response": []
+		},
+		{
+			"name": "Reporter Registration",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authkey",
+						"value": "98f7ac549729d20b1f40d5",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\":7,\r\n    \"registration_date\":\"2021-02-07\",\r\n    \"coverage_category\":[1,2],\r\n    \"coverage_location\":[1],\r\n    \"coverage_language\":[1]\r\n    }"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/register",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"register"
+					]
+				},
+				"description": "Reporter Registration"
+			},
+			"response": []
+		},
+		{
+			"name": "Coverage Location",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					},
+					{
+						"key": "Authkey",
+						"value": "f16b10059bb3bcb0129c4e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"search_key\":\"dh\"}"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/search/coverage_location",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"search",
+						"coverage_location"
+					]
+				},
+				"description": "Coverage Location"
+			},
+			"response": []
+		},
+		{
+			"name": "Coverage Language",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					},
+					{
+						"key": "Authkey",
+						"value": "f16b10059bb3bcb0129c4e",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"search_key\":\"te\"}"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/search/coverage_language",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"search",
+						"coverage_language"
+					]
+				},
+				"description": "Coverage Language"
+			},
+			"response": []
+		},
+		{
+			"name": "Save Bank Details",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					},
+					{
+						"key": "Authkey",
+						"type": "text",
+						"value": "92e5037730b5c8b1aa1590"
+					},
+					{
+						"key": "",
+						"value": "f16b10059bb3bcb0129c4e",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"account_name\":\"nari\",\r\n    \"account_number\":\"112300445566\",\r\n    \"bank_name\":\"BSI\",\r\n    \"ifsc_code\":\"sbikind234567\"\r\n}"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/user/save_bank_account_detail",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"user",
+						"save_bank_account_detail"
+					],
+					"query": [
+						{
+							"key": "Content-Type",
+							"value": "apl",
+							"disabled": true
+						},
+						{
+							"key": "Version",
+							"value": "v1",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Save Bank Details"
+			},
+			"response": []
+		},
+		{
+			"name": "Verify Bank Details",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					},
+					{
+						"key": "Authkey",
+						"value": "ae8b814a168795b2ee8cba",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\":3,\r\n    \"status\":1\r\n}"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/user/verify_bank_details",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"user",
+						"verify_bank_details"
+					]
+				},
+				"description": "Verify Bank Details"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Bank Details",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					},
+					{
+						"key": "Authkey",
+						"value": "92e5037730b5c8b1aa1590",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/user/delete_bank_details",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"user",
+						"delete_bank_details"
+					],
+					"query": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"disabled": true
+						},
+						{
+							"key": "Version",
+							"value": "v1",
+							"disabled": true
+						},
+						{
+							"key": "Authkey",
+							"value": "ae8b814a168795b2ee8cba",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Delete Bank Details"
+			},
+			"response": []
+		},
+		{
+			"name": "Bank Details",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/ecmascript",
+						"type": "text"
+					},
+					{
+						"key": "Authkey",
+						"value": "d1c47f93eb50ab6b022b30",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/user/bank_details",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"user",
+						"bank_details"
+					]
+				},
+				"description": "Bank Details"
+			},
+			"response": []
+		},
+		{
+			"name": "Viewership Earning",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					},
+					{
+						"key": "Authkey",
+						"value": "d1c47f93eb50ab6b022b30",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/user/viewership_earning",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"user",
+						"viewership_earning"
+					]
+				},
+				"description": "Viewership Earning"
+			},
+			"response": []
+		},
+		{
+			"name": "Reporter Pending Payment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authkey",
+						"value": "d1c47f93eb50ab6b022b30",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"coverage_location\":[],\r\n    \"search_key\":\"sr\"\r\n}"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/user/get_reporter_pending_payment",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"user",
+						"get_reporter_pending_payment"
+					]
+				},
+				"description": "Reporter Pending Payment"
+			},
+			"response": []
+		},
+		{
+			"name": "Suspend Reporter Account",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Version",
+						"type": "text",
+						"value": "v1"
+					},
+					{
+						"key": "Authkey",
+						"type": "text",
+						"value": "98f7ac549729d20b1f40d5"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\":7\r\n    }"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/register/suspend",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"register",
+						"suspend"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Demote Reporter Account",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authkey",
+						"value": "98f7ac549729d20b1f40d5",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\":3\r\n    }"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/register/demote",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"register",
+						"demote"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Resume Reporter Account",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authkey",
+						"value": "98f7ac549729d20b1f40d5",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user_id\":3\r\n    }"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/register/resume",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"register",
+						"resume"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					},
+					{
+						"key": "Authkey",
+						"value": "98f7ac549729d20b1f40d5",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"day_filter\":\"5\"}"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/post/top",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"post",
+						"top"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Trending Tags",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/search/trending_tags",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"search",
+						"trending_tags"
+					]
+				},
+				"description": "Trending Tags"
+			},
+			"response": []
+		},
+		{
+			"name": "Guest user timeline",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"page_no\": \"1\",\r\n  \"page_size\": \"20\",\r\n  \"location\": {\r\n    \"district\": \"indore\",\r\n    \"state\": \"madhya pradesh\",\r\n    \"country\": \"india\"\r\n  }\r\n}"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/post/guest_timeline",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"post",
+						"guest_timeline"
+					]
+				},
+				"description": "Guest user timeline"
+			},
+			"response": []
+		},
+		{
+			"name": "Location",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Version",
+						"value": "v1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"page_no\": \"1\",\r\n  \"page_size\": \"20\"\r\n}"
+				},
+				"url": {
+					"raw": "{{HOST}}newsperson/location",
+					"host": [
+						"{{HOST}}newsperson"
+					],
+					"path": [
+						"location"
+					]
+				},
+				"description": "Get all location list"
+			},
+			"response": []
+		}
+	]
+}

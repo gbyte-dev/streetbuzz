@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+  - export DEPLOYPATH=/home/streetbuzz/public_html/development/
+  - /bin/cp -R React-Development $DEPLOYPATH
+  

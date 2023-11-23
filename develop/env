@@ -1,0 +1,4 @@
+MYSQL_HOST=streetbuzz.co
+MYSQL_USER=streetbu_develop
+MYSQL_PASSWORD=streetbu_develop
+MYSQL_DATABASE=streetbu_develop

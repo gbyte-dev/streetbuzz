@@ -1,0 +1,8 @@
+CREATE TABLE `ads_click_info` (
+  `id` int(11) NOT NULL,
+  `post_id` int(11) DEFAULT NULL,
+  `ad_id` int(11) DEFAULT NULL,
+  `cnt` int(11) DEFAULT NULL,
+  `created_date` date DEFAULT NULL,
+  `ip_addr` varchar(100) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
