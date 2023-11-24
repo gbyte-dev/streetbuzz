@@ -23,9 +23,9 @@
 	// 
 	   //  $C->DB_HOST	= '182.18.139.51';
 	   $C->DB_HOST	= 'localhost';
-	    $C->DB_USER	= 'streetbuzz1_sb_live_1';
-	    $C->DB_NAME	= 'streetbuzz1_sb_live_1';
-	    $C->DB_PASS	= 'Hanuman321#';
+	    $C->DB_USER	= 'streetbu_develop';
+	    $C->DB_NAME	= 'streetbu_develop';
+	    $C->DB_PASS	= 'streetbu_develop';
 		$C->DB_MYEXT = 'mysqli'; // 'mysqli' or 'mysql'
 	
 	// CACHE SETTINGS

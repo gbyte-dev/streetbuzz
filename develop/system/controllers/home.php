@@ -878,16 +878,20 @@ else {
               <div class="card">
     <div class="card-body" style="">
       <?php  
-    
-$ch=curl_init();
-curl_setopt($ch,CURLOPT_URL,"http://ip-api.com/json");
+
+/*$ch=curl_init();
+ curl_setopt($ch,CURLOPT_URL,"http://ip-api.com/json");
+ 
 curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
 $result=curl_exec($ch);
+
+
 $result=json_decode($result);
 
 if($result->status=='success'){
  $city= $result->city;
 }
+*/
 $city="Lucknow";
 $locationcheck= $db2->query('select * from sb_location_master where location_district like "%'.$city.'%"');
 $row = $db2->fetch_object($locationcheck);
@@ -952,10 +956,7 @@ if($big_image){
             inner join posts as p ON p.id=h.post_id 
             inner join users as u ON p.user_id=u.id
             left join posts_attachments as pa ON pa.post_id=p.id WHERE h.main_or_not ="'.$yes.'" group by p.id order by h.id desc');
-          
-            
-            
-                
+ 
                 
             }else{
                
@@ -966,6 +967,7 @@ if($big_image){
             inner join posts as p ON p.id=h.post_id 
             inner join users as u ON p.user_id=u.id
             left join posts_attachments as pa ON pa.post_id=p.id WHERE h.state_id="'.$state.'" group by p.id order by h.sequence asc');
+             //die('2222');
                 }elseif($_GET['search']){
                    $state=  $search =$_GET['search'];
                     $searching =1; 
@@ -973,7 +975,7 @@ if($big_image){
             inner join users as u ON p.user_id=u.id
             left join posts_attachments as pa ON pa.post_id=p.id WHERE p.message like "%'.$search.'%" group by p.id order by h.sequence asc');
           
-            
+             //die('33333333');
 
                 }
             }
@@ -1308,7 +1310,7 @@ Select the state where you want to enjoy real-time news.</h3>
     <button type="submit" class="btn btn-default btncredit newlogin"><i class="fa fa-spinner fa-spin"></i>Log in</button>
     </div>
         
-        
+       
         </div>
         
         
@@ -1318,8 +1320,8 @@ Select the state where you want to enjoy real-time news.</h3>
   </div>
   
   
-<?php $k=1;$s=0; while($result    = $db2->fetch_object($res)){ 
-     if($k%3 ==0){
+<?php $k=1;$s=0; while($result    = $db2->fetch_object($res)){
+      if($k%3 ==0){
        $showads =1; 
     }else{
        $showads =0;  
@@ -1331,7 +1333,7 @@ Select the state where you want to enjoy real-time news.</h3>
   color: orange;
 }
 </style>
-  
+ 
  <div class="bd-example-row ">
 
 <div class="bd-example newsrow card" style="padding-top: 5px;"> 
