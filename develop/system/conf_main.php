@@ -2,8 +2,8 @@
 	
 	// Site Address Here:
 	// 
-		$C->DOMAIN		= 'streetbuzz.co.in';
-		$C->SITE_URL	= 'https://streetbuzz.co.in/newsapp/';
+		$C->DOMAIN		= 'streetbuzz.co';
+		$C->SITE_URL	= 'https://streetbuzz.co/develop/';
 	// 
 	// 
 	
