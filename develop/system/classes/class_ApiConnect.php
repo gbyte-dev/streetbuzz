@@ -21,13 +21,13 @@ class ApiConnect{
 	}
 
 	public function open(){
-		$this->curl = curl_init();
+	/*	$this->curl = curl_init();
 
 		curl_setopt($this->curl, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($this->curl, CURLOPT_CONNECTTIMEOUT, 20);
 		curl_setopt($this->curl, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
 		curl_setopt($this->curl, CURLOPT_USERAGENT, "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0) API User");
-		curl_setopt($this->curl, CURLOPT_USERPWD, $this->username . ':' . $this->password);
+		curl_setopt($this->curl, CURLOPT_USERPWD, $this->username . ':' . $this->password);*/
 	}
 
 	public function get($url, $params = null){
@@ -36,14 +36,15 @@ class ApiConnect{
 		} else {
 			$paramsString = "";
 		}
-		curl_setopt($this->curl, CURLOPT_URL, $this->base_url . $url . "/" . $paramsString);
-		$data = curl_exec($this->curl);
+	//	curl_setopt($this->curl, CURLOPT_URL, $this->base_url . $url . "/" . //$paramsString);
+	//	$data = curl_exec($this->curl);
 		
-		return $data;
+	//	return $data;
+	return '';
 	}
 	
 	public function getInfo(){
-		return curl_getinfo($this->curl);
+	//	return curl_getinfo($this->curl);
 	}
 
 	protected function getUrlParams($params){
@@ -59,7 +60,7 @@ class ApiConnect{
 
 	public function close(){
 
-		if(is_resource($this->curl))
-			curl_close($this->curl);
+	/*	if(is_resource($this->curl))
+			curl_close($this->curl);*/
 	}
 }
