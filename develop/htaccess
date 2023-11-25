@@ -1,6 +1,12 @@
+
 <IfModule mod_rewrite.c>
 	RewriteEngine On
-	RewriteBase /develop/
+	RewriteBase /newsapp/
+	
+	RewriteCond %{HTTPS} off 
+    RewriteCond %{HTTP_HOST} ^streetbuzz\.co\.in$ [NC]
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+	
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteRule ^(.*)$ index.php?%{QUERY_STRING} [NE,L]

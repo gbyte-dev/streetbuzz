@@ -1,12 +1,9 @@
-
 <?php
 //This query for getting results from post day feel table where result is null.
-$dbname="streetbu_sb_test";
-echo "dryrt";exit;
+$dbname="sb_test";
 
 
-$connection = mysqli_connect("localhost","streetbu_sb_test","streetbu_sb_test");
-print_r("cuc");exit;
+$connection = mysqli_connect("localhost","sb_test","Wslu@697");
 mysqli_select_db($connection,$dbname);
 $status ="OPEN";
 $predictselect  = "SELECT id,predict_value,asset_id,prediction_base_price,considered_accuracy,user_id FROM  post_prediction  where status='".$status."' AND  end_date >=now() order by id desc ";
