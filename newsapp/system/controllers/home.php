@@ -863,7 +863,7 @@ else {
     <div class="card-body p-0">
        
 <a href="<?php echo $C->SITE_URL?>privacy-terms-rules/about/" style="text-decoration:none;color:#007bff">
-        <h4 class="text-center">Nilesh About StreetBuzz</h4>
+        <h4 class="text-center">About StreetBuzz</h4>
         </a>
       <!-- <ul class="section-nav">
 <li class="toc-entry toc-h2"><a href="<?php echo $C->SITE_URL?>privacy-terms-rules/privacy/index.html">Privacy Policy</a></li>
