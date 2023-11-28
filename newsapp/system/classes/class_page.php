@@ -277,6 +277,8 @@
 			$user		= & $this->user;
 			$network	= & $this->network;
 			
+			///home/streetbuzz/public_html/newsapp/system/controllers/
+			
 			require_once( $this->controllers.implode('_',$this->request).'.php' );
 		}
 		

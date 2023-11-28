@@ -1,0 +1,475 @@
+[26-Nov-2023 15:38:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php:3468
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/helpers/routines/loadSingleActivity.php(1381): post->timelinelinkhtml(19040)
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_controllerRoutine.php(39): loadSingleActivity(Object(template), Array)
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_activity.php(158): controllerRoutine->load()
+#3 /home/streetbuzz/public_html/newsapp/system/controllers/view.php(36): activity->loadPostsView(19288, '1')
+#4 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#5 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#6 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#7 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#8 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php on line 3468
+[26-Nov-2023 15:40:23 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php:3468
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/helpers/routines/loadSingleActivity.php(1381): post->timelinelinkhtml(19040)
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_controllerRoutine.php(39): loadSingleActivity(Object(template), Array)
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_activity.php(158): controllerRoutine->load()
+#3 /home/streetbuzz/public_html/newsapp/system/controllers/view.php(36): activity->loadPostsView(19287, '1')
+#4 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#5 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#6 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#7 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#8 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php on line 3468
+[26-Nov-2023 15:46:29 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php:3468
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/helpers/routines/loadSingleActivity.php(1381): post->timelinelinkhtml(19040)
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_controllerRoutine.php(39): loadSingleActivity(Object(template), Array)
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_activity.php(158): controllerRoutine->load()
+#3 /home/streetbuzz/public_html/newsapp/system/controllers/view.php(36): activity->loadPostsView(19197, '1')
+#4 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#5 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#6 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#7 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#8 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php on line 3468
+[26-Nov-2023 15:46:50 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php:3468
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/helpers/routines/loadSingleActivity.php(1381): post->timelinelinkhtml(19040)
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_controllerRoutine.php(39): loadSingleActivity(Object(template), Array)
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_activity.php(158): controllerRoutine->load()
+#3 /home/streetbuzz/public_html/newsapp/system/controllers/view.php(36): activity->loadPostsView(19144, '1')
+#4 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#5 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#6 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#7 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#8 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php on line 3468
+[26-Nov-2023 15:47:22 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php:3468
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/helpers/routines/loadSingleActivity.php(1381): post->timelinelinkhtml(19040)
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_controllerRoutine.php(39): loadSingleActivity(Object(template), Array)
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_activity.php(158): controllerRoutine->load()
+#3 /home/streetbuzz/public_html/newsapp/system/controllers/view.php(36): activity->loadPostsView(19241, '1')
+#4 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#5 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#6 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#7 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#8 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php on line 3468
+[26-Nov-2023 16:42:39 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1740800 bytes) in /home/streetbuzz/public_html/newsapp/system/classes/class_templateElement.php on line 17
+[26-Nov-2023 16:44:47 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php:3468
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/helpers/routines/loadSingleActivity.php(1381): post->timelinelinkhtml(19040)
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_controllerRoutine.php(39): loadSingleActivity(Object(template), Array)
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_activity.php(158): controllerRoutine->load()
+#3 /home/streetbuzz/public_html/newsapp/system/controllers/view.php(36): activity->loadPostsView(19290, '1')
+#4 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#5 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#6 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#7 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#8 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php on line 3468
+[26-Nov-2023 17:02:19 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php:3468
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/helpers/routines/loadSingleActivity.php(1381): post->timelinelinkhtml(19040)
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_controllerRoutine.php(39): loadSingleActivity(Object(template), Array)
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_activity.php(158): controllerRoutine->load()
+#3 /home/streetbuzz/public_html/newsapp/system/controllers/view.php(36): activity->loadPostsView(19198, '1')
+#4 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#5 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#6 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#7 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#8 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php on line 3468
+[26-Nov-2023 17:17:37 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php:3468
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/helpers/routines/loadSingleActivity.php(1381): post->timelinelinkhtml(19040)
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_controllerRoutine.php(39): loadSingleActivity(Object(template), Array)
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_activity.php(158): controllerRoutine->load()
+#3 /home/streetbuzz/public_html/newsapp/system/controllers/view.php(36): activity->loadPostsView(19166, '1')
+#4 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#5 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#6 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#7 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#8 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/classes/class_post.php on line 3468
+[27-Nov-2023 09:02:15 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1740800 bytes) in /home/streetbuzz/public_html/newsapp/system/classes/class_templateElement.php on line 17
+[27-Nov-2023 10:50:21 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 10:50:21 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-c2e7569f36188cbad612d2ae8fad5022): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:21 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:21 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:21 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:22 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 10:50:22 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-c2e7569f36188cbad612d2ae8fad5022): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:22 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:22 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:22 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:22 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 10:50:22 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-c2e7569f36188cbad612d2ae8fad5022): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:22 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:22 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:22 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-c2e7569f36188cbad612d2ae8fad5022): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-c2e7569f36188cbad612d2ae8fad5022): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-c2e7569f36188cbad612d2ae8fad5022): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-c2e7569f36188cbad612d2ae8fad5022): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-c2e7569f36188cbad612d2ae8fad5022): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:23 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:24 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 10:50:24 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-c2e7569f36188cbad612d2ae8fad5022): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:24 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:24 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:24 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-c2e7569f36188cbad612d2ae8fad5022): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-c2e7569f36188cbad612d2ae8fad5022): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-c2e7569f36188cbad612d2ae8fad5022): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 10:50:25 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 10:52:09 Asia/Kolkata] PHP Notice:  Undefined index: location in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 25
+[27-Nov-2023 10:52:09 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 26
+[27-Nov-2023 10:52:09 Asia/Kolkata] PHP Notice:  Undefined index: search in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 666
+[27-Nov-2023 10:52:09 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:09 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:09 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:09 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:09 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:09 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:09 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:09 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:09 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:09 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:10 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:10 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:10 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:10 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:10 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:10 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Undefined index: location in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 25
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 26
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Undefined index: search in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 666
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:11 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Undefined index: location in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 25
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 26
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Undefined index: search in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 666
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:12 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:13 Asia/Kolkata] PHP Notice:  Undefined index: location in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 25
+[27-Nov-2023 10:52:13 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 26
+[27-Nov-2023 10:52:13 Asia/Kolkata] PHP Notice:  Undefined index: search in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 666
+[27-Nov-2023 10:52:13 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Undefined index: location in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 25
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 26
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Undefined index: search in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 666
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Undefined index: location in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 25
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 26
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Undefined index: search in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 666
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Undefined index: location in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 25
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 26
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Undefined index: search in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 666
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:14 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Undefined index: location in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 25
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 26
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Undefined index: search in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 666
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Warning:  Use of undefined constant undefined - assumed 'undefined' (this will throw an Error in a future version of PHP) in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1887
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 10:52:15 Asia/Kolkata] PHP Notice:  Trying to get property 'file_original' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/home.php on line 1413
+[27-Nov-2023 18:02:06 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 18:02:06 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:02:06 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:02:38 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefrompng() in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php:146
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php(69): copy_avatar('/tmp/phpmKV3c4', '170108835819765...')
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#3 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#4 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#5 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php on line 146
+[27-Nov-2023 18:04:26 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefrompng() in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php:146
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php(69): copy_avatar('/tmp/phpd3tsJI', '170108846688015...')
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#3 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#4 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#5 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php on line 146
+[27-Nov-2023 18:05:26 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 18:05:26 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:05:26 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:05:27 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 18:05:27 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:05:27 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:05:56 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefrompng() in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php:146
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php(69): copy_avatar('/tmp/phpWjAvOS', '170108855697629...')
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#3 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#4 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#5 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php on line 146
+[27-Nov-2023 18:07:49 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 18:07:49 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:07:49 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:07:54 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefrompng() in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php:146
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php(69): copy_avatar('/tmp/php9XaxSx', '170108867444319...')
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#3 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#4 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#5 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php on line 146
+[27-Nov-2023 18:08:05 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 18:08:05 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:08:05 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:08:11 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php:143
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php(69): copy_avatar('/tmp/phpmRM7bC', '170108869181463...')
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#3 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#4 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#5 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php on line 143
+[27-Nov-2023 18:11:53 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefrompng() in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php:146
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php(69): copy_avatar('/tmp/phpatMidz', '170108891331313...')
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#3 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#4 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#5 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php on line 146
+[27-Nov-2023 18:12:41 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefrompng() in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php:146
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php(69): copy_avatar('/tmp/phpGHiDgy', '170108896149401...')
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#3 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#4 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#5 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php on line 146
+[27-Nov-2023 18:13:51 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefrompng() in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php:147
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php(69): copy_avatar('/tmp/phpcDe0XQ', '170108903165267...')
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#3 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#4 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#5 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php on line 147
+[27-Nov-2023 18:14:17 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefrompng() in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php:146
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php(69): copy_avatar('/tmp/phpMYsfYV', '170108905710148...')
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#3 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#4 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#5 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php on line 146
+[27-Nov-2023 18:14:20 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 18:14:20 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:14:20 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:14:33 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefrompng() in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php:146
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php(69): copy_avatar('/tmp/php2Cf6Oq', '170108907383907...')
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#3 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#4 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#5 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php on line 146
+[27-Nov-2023 18:15:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php:143
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php(69): copy_avatar('/tmp/phpbDhq0z', '170108914661764...')
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#3 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#4 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#5 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php on line 143
+[27-Nov-2023 18:22:45 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 18:22:45 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:22:45 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:23:40 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 18:23:40 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:23:40 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:24:08 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 18:24:08 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:24:08 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:24:15 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-6727bea155d52f89dcf229e80943b166): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:24:15 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:24:15 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-fbd548443718f2b0155525bf1e670b59): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:24:15 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:24:15 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-66e0caef4fb194da75616cf30b8b6f55): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:24:15 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:24:15 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-c73a734ceaa57d55de1116dfa01b066e): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:24:15 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:24:15 Asia/Kolkata] PHP Warning:  getimagesize(/home/streetbuzz/public_html/newsapp/system/../storage/avatars/1701089655328539.png): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php on line 114
+[27-Nov-2023 18:24:15 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 18:24:15 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:24:15 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:24:27 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-6727bea155d52f89dcf229e80943b166): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:24:27 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:24:28 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-fbd548443718f2b0155525bf1e670b59): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:24:28 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:24:28 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-66e0caef4fb194da75616cf30b8b6f55): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:24:28 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:24:28 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-c73a734ceaa57d55de1116dfa01b066e): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:24:28 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:24:28 Asia/Kolkata] PHP Warning:  getimagesize(/home/streetbuzz/public_html/newsapp/system/../storage/avatars/1701089667781220.png): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php on line 114
+[27-Nov-2023 18:24:28 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 18:24:28 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:24:28 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:25:14 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefrompng() in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php:146
+Stack trace:
+#0 /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php(69): copy_avatar('/tmp/phpTi6dGe', '170108971450771...')
+#1 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(280): require_once('/home/streetbuz...')
+#2 /home/streetbuzz/public_html/newsapp/system/classes/class_page.php(31): page->_load_controller()
+#3 /home/streetbuzz/public_html/newsapp/system/LOADER.php(51): page->LOAD()
+#4 /home/streetbuzz/public_html/newsapp/index.php(13): require_once('/home/streetbuz...')
+#5 {main}
+  thrown in /home/streetbuzz/public_html/newsapp/system/helpers/func_images.php on line 146
+[27-Nov-2023 18:25:16 Asia/Kolkata] PHP Warning:  getimagesize(/home/streetbuzz/public_html/newsapp/system/../storage/avatars/1701089667781220.png): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php on line 114
+[27-Nov-2023 18:25:16 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 18:25:16 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:25:16 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:25:18 Asia/Kolkata] PHP Warning:  getimagesize(/home/streetbuzz/public_html/newsapp/system/../storage/avatars/1701089667781220.png): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php on line 114
+[27-Nov-2023 18:25:18 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 18:25:18 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:25:18 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 18:25:19 Asia/Kolkata] PHP Warning:  getimagesize(/home/streetbuzz/public_html/newsapp/system/../storage/avatars/1701089667781220.png): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/controllers/settings_avatar.php on line 114
+[27-Nov-2023 18:25:19 Asia/Kolkata] PHP Notice:  Undefined property: stdClass::$tab in /home/streetbuzz/public_html/newsapp/apps/events/plugin.php on line 29
+[27-Nov-2023 18:25:19 Asia/Kolkata] PHP Warning:  file_put_contents(/home/streetbuzz/public_html/newsapp/system/cache//4d9f3e4d34de124a4362cbbeb3ca1e39-4252da43159e06451da73a198c222bb5): failed to open stream: No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 62
+[27-Nov-2023 18:25:19 Asia/Kolkata] PHP Warning:  chmod(): No such file or directory in /home/streetbuzz/public_html/newsapp/system/classes/class_cache_filesystem.php on line 63
+[27-Nov-2023 19:25:19 Asia/Kolkata] PHP Notice:  Trying to get property 'num_followers' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/locationaction.php on line 39
+[27-Nov-2023 19:29:05 Asia/Kolkata] PHP Notice:  Trying to get property 'num_followers' of non-object in /home/streetbuzz/public_html/newsapp/system/controllers/locationaction.php on line 39
+[28-Nov-2023 08:11:46 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1740800 bytes) in /home/streetbuzz/public_html/newsapp/system/classes/class_templateElement.php on line 17
