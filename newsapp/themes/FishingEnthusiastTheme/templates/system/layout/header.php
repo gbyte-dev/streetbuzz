@@ -15,7 +15,7 @@ $userId = $this->user->sess['LOGGED_USER']->id;
 //checking location id   
  $location_id=$tagbuzzs->check_location_id($userId);
 if (empty($location_id)) {
-//  header('Location: ' . $C->SITE_URL . 'setlocation');
+  header('Location: ' . $C->SITE_URL . 'setlocation');
 }
 $page_title_detail=$tagbuzzs->page_title_detail($D->postid);
 $post_detail_new=$tagbuzzs->post_detail_new($D->postid);

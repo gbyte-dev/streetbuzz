@@ -1,6 +1,6 @@
 <?php 
-error_reporting(E_ALL);
-ini_set('display_errors', 'On');
+// error_reporting(E_ALL);
+// ini_set('display_errors', 'On');
 $userId = $this->user->sess['LOGGED_USER']->id;
 if (isset($_POST) && !empty($_POST)) {
     $locationids = $_POST['locationids'];
@@ -71,4 +71,5 @@ foreach($array_final as $uhandle){
     	
     
 }
+return true;
 ?>
