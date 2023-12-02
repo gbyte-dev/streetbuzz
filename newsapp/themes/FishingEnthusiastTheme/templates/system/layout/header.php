@@ -12,10 +12,14 @@ $tagbuzzs =new post($posttype, FALSE, $objarr);
 
 //$userID = $_SESSION['NETWORKS_USR_DATA'][1]['LOGGED_USER']->id;
 $userId = $this->user->sess['LOGGED_USER']->id;
+if(isset($userId)){
 //checking location id   
  $location_id=$tagbuzzs->check_location_id($userId);
-if (empty($location_id)) {
-  header('Location: ' . $C->SITE_URL . 'setlocation');
+ //echo $location_id;die('===');
+if (empty($location_id) || $location_id === "0") {
+      echo "<script>window.location.href='".$C->SITE_URL ."setlocation';</script>";
+ // header('Location: ' . $C->SITE_URL . 'setlocation');
+}
 }
 $page_title_detail=$tagbuzzs->page_title_detail($D->postid);
 $post_detail_new=$tagbuzzs->post_detail_new($D->postid);
